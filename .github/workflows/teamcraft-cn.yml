@@ -22,7 +22,10 @@ jobs:
       run: node -v
 
     - name: Replace source directory
-      run: sed -i 's/\/library\/[0-9.]\+\//\/library\//' teamcraft/data-extraction/data-exporter/config/zh.js
+      run: |
+        sed -i 's/\/library\/[0-9.]\+\//\/library\//' teamcraft/data-extraction/data-exporter/config/zh.js
+        sed -i 's/file: 'chs'/file: ''/' teamcraft/data-extraction/data-exporter/config/zh.js
+        
       
     - name: Run data generator
       run: node teamcraft/data-extraction/data-exporter/index-zh.js
