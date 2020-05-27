@@ -38,12 +38,12 @@ jobs:
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v2
       with:
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.WORKER_ACCESS_KEY }}
         path: teamcraft
         commit-message: "feat(data): update for cn $tag"
         author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
         # request-to-parent: true
-        branch: ci/zh/datamining-$GITHUB_RUN_ID
+        branch: ci/zh/datamining-${GITHUB_RUN_ID}
         base: staging
         title: "feat(data): update for cn $tag"
         body: |
