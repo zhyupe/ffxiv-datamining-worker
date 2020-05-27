@@ -1,5 +1,8 @@
 name: Build
-on: push
+on:
+  push:
+    tags: 
+      - teamcraft/*
 
 env:
   tag: patch-5.18
@@ -42,7 +45,7 @@ jobs:
         path: teamcraft
         commit-message: "feat(data): update for cn ${{ env.tag }}"
         author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
-        # request-to-parent: true
+        request-to-parent: true
         branch: ci/zh/datamining-${{ env.tag }}
         base: staging
         title: "feat(data): update for cn ${{ env.tag }}"
