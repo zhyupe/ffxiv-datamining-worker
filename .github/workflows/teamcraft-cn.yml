@@ -33,7 +33,7 @@ jobs:
     - name: Setting fork as origin
       run: |
         cd teamcraft
-        git remote set-url origin https://github.com/${teamcraft_fork}.git
+        git remote set-url origin https://github.com/${teamcraft_fork}
         
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v2
