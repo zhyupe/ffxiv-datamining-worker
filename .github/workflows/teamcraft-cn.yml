@@ -43,7 +43,7 @@ jobs:
         commit-message: "feat(data): update for cn $tag"
         author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
         # request-to-parent: true
-        branch: ci/zh/datamining-${GITHUB_RUN_ID}
+        branch: ci/zh/datamining-${{ github.run_id }}-${{ github.run_number }}
         base: staging
         title: "feat(data): update for cn $tag"
         body: |
