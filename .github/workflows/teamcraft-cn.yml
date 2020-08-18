@@ -5,7 +5,7 @@ on:
       - teamcraft/*
 
 env:
-  tag: patch-5.18
+  tag: patch-5.21
   library_repo: thewakingsands/ffxiv-datamining-cn
   teamcraft_repo: ffxiv-teamcraft/ffxiv-teamcraft
   teamcraft_fork: zhyupe/ffxiv-teamcraft
