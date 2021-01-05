@@ -5,7 +5,7 @@ on:
       - teamcraft/*
 
 env:
-  tag: patch-5.3
+  tag: patch-5.31
   library_repo: thewakingsands/ffxiv-datamining-cn
   teamcraft_repo: ffxiv-teamcraft/ffxiv-teamcraft
   teamcraft_fork: zhyupe/ffxiv-teamcraft
@@ -45,7 +45,7 @@ jobs:
         path: teamcraft
         commit-message: "feat(data): update for cn ${{ env.tag }}"
         author: ${{ github.actor }} <${{ github.actor }}@users.noreply.github.com>
-        request-to-parent: true
+        push-to-fork: ${{ env.teamcraft_repo }}
         branch: ci/zh/datamining-${{ env.tag }}
         base: staging
         title: "feat(data): update for cn ${{ env.tag }}"
