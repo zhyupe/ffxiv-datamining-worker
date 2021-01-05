@@ -34,7 +34,7 @@ jobs:
       
     - name: Setting origin
       run: |
-        cd machina-wrapper-json
+        cd teamcraft
         git remote set-url origin https://github.com/${teamcraft_repo}
         
     - name: Create Pull Request
