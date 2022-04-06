@@ -1,0 +1,11 @@
+{
+  "name": "ffxiv-datamining-worker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:zhyupe/ffxiv-datamining-worker.git",
+  "author": "Innpaul Zhang <zyp108421@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "2"
+  }
+}

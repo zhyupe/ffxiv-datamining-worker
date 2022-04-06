@@ -14,9 +14,39 @@ env:
   teamcraft_fork: zhyupe/ffxiv-teamcraft
 
 jobs:
-  build:
+  server:
     runs-on: ubuntu-latest
+    steps:
+    - name: Checkout 🛎️
+      uses: actions/checkout@v2.3.1
+      with:
+        persist-credentials: false
+        
+    - name: Cache Node Dependencies 🎶
+      id: cache
+      uses: actions/cache@v1
+      with:
+        path: node_modules
+        key: ${{runner.OS}}-npm-caches-${{ hashFiles('yarn.lock') }}
 
+    - name: Fetch library
+      run: git clone --branch $tag --depth 1 https://github.com/${library_repo}.git library
+      
+    - name: Check node version
+      run: node -v
+      
+    - name: Run script
+      run: node server.js
+
+    - name: Deploy to Github Pages 🚀
+      uses: JamesIves/github-pages-deploy-action@4.1.0
+      with:
+        branch: gh-pages
+        folder: dist
+        clean: true
+
+  teamcraft:
+    runs-on: ubuntu-latest
     steps:
     - name: Fetch library
       run: git clone --branch $tag --depth 1 https://github.com/${library_repo}.git library
