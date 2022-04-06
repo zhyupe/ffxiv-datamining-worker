@@ -1,4 +1,4 @@
-name: Build
+name: Data Mining
 on:
   workflow_dispatch:
     inputs:
@@ -34,6 +34,9 @@ jobs:
       
     - name: Check node version
       run: node -v
+      
+    - name: Install dependency
+      run: yarn
       
     - name: Run script
       run: node server.js
