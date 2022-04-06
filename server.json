@@ -1,0 +1,198 @@
+[
+  {
+    "dc": 1,
+    "name_chs": "陆行鸟",
+    "name_en": "LuXingNiao",
+    "worlds": [
+      {
+        "id": 1042,
+        "sdo_id": 3,
+        "name_chs": "拉诺西亚",
+        "name_en": "LaNuoXiYa"
+      },
+      {
+        "id": 1044,
+        "sdo_id": 5,
+        "name_chs": "幻影群岛",
+        "name_en": "HuanYingQunDao"
+      },
+      {
+        "id": 1081,
+        "sdo_id": 23,
+        "name_chs": "神意之地",
+        "name_en": "ShenYiZhiDi"
+      },
+      {
+        "id": 1060,
+        "sdo_id": 25,
+        "name_chs": "萌芽池",
+        "name_en": "MengYaChi"
+      },
+      {
+        "id": 1167,
+        "sdo_id": 27,
+        "name_chs": "红玉海",
+        "name_en": "HongYuHai"
+      },
+      {
+        "id": 1173,
+        "sdo_id": 28,
+        "name_chs": "宇宙和音",
+        "name_en": "YuZhouHeYin"
+      },
+      {
+        "id": 1174,
+        "sdo_id": 29,
+        "name_chs": "沃仙曦染",
+        "name_en": "WoXianXiRan"
+      },
+      {
+        "id": 1175,
+        "sdo_id": 30,
+        "name_chs": "晨曦王座",
+        "name_en": "ChenXiWangZuo"
+      }
+    ]
+  },
+  {
+    "dc": 6,
+    "name_chs": "莫古力",
+    "name_en": "MoGuLi",
+    "worlds": [
+      {
+        "id": 1170,
+        "sdo_id": 1,
+        "name_chs": "潮风亭",
+        "name_en": "ChaoFengTing"
+      },
+      {
+        "id": 1171,
+        "sdo_id": 2,
+        "name_chs": "神拳痕",
+        "name_en": "ShenQuanHen"
+      },
+      {
+        "id": 1172,
+        "sdo_id": 3,
+        "name_chs": "白银乡",
+        "name_en": "BaiYinXiang"
+      },
+      {
+        "id": 1076,
+        "sdo_id": 4,
+        "name_chs": "白金幻象",
+        "name_en": "BaiJinHuanXiang"
+      },
+      {
+        "id": 1113,
+        "sdo_id": 5,
+        "name_chs": "旅人栈桥",
+        "name_en": "LvRenZhanQiao"
+      },
+      {
+        "id": 1121,
+        "sdo_id": 6,
+        "name_chs": "拂晓之间",
+        "name_en": "FuXiaoZhiJian"
+      },
+      {
+        "id": 1166,
+        "sdo_id": 7,
+        "name_chs": "龙巢神殿",
+        "name_en": "Longchaoshendian"
+      },
+      {
+        "id": 1176,
+        "sdo_id": 8,
+        "name_chs": "梦羽宝境",
+        "name_en": "MengYuBaoJing"
+      }
+    ]
+  },
+  {
+    "dc": 7,
+    "name_chs": "猫小胖",
+    "name_en": "MaoXiaoPang",
+    "worlds": [
+      {
+        "id": 1043,
+        "sdo_id": 1,
+        "name_chs": "紫水栈桥",
+        "name_en": "ZiShuiZhanQiao"
+      },
+      {
+        "id": 1169,
+        "sdo_id": 2,
+        "name_chs": "延夏",
+        "name_en": "YanXia"
+      },
+      {
+        "id": 1106,
+        "sdo_id": 3,
+        "name_chs": "静语庄园",
+        "name_en": "JingYuZhuangYuan"
+      },
+      {
+        "id": 1045,
+        "sdo_id": 4,
+        "name_chs": "摩杜纳",
+        "name_en": "MoDuNa"
+      },
+      {
+        "id": 1177,
+        "sdo_id": 5,
+        "name_chs": "海猫茶屋",
+        "name_en": "HaiMaoChaWu"
+      },
+      {
+        "id": 1178,
+        "sdo_id": 6,
+        "name_chs": "柔风海湾",
+        "name_en": "RouFengHaiWan"
+      },
+      {
+        "id": 1179,
+        "sdo_id": 7,
+        "name_chs": "琥珀原",
+        "name_en": "HuPoYuan"
+      }
+    ]
+  },
+  {
+    "dc": 8,
+    "name_chs": "豆豆柴",
+    "name_en": "DouDouChai",
+    "worlds": [
+      {
+        "id": 1192,
+        "sdo_id": 1,
+        "name_chs": "水晶塔",
+        "name_en": "ShuiJingTa2"
+      },
+      {
+        "id": 1183,
+        "sdo_id": 2,
+        "name_chs": "银泪湖",
+        "name_en": "YinLeiHu2"
+      },
+      {
+        "id": 1180,
+        "sdo_id": 3,
+        "name_chs": "太阳海岸",
+        "name_en": "TaiYangHaiAn2"
+      },
+      {
+        "id": 1186,
+        "sdo_id": 4,
+        "name_chs": "伊修加德",
+        "name_en": "YiXiuJiaDe2"
+      },
+      {
+        "id": 1201,
+        "sdo_id": 5,
+        "name_chs": "红茶川",
+        "name_en": "HongChaChuan2"
+      }
+    ]
+  }
+]
